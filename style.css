@@ -135,7 +135,7 @@ img {
         border-style: solid;
         border-width: 1px;
         border-color: rgb(231, 231, 231);
-        background-color: #08366b;
+        background-color: #719cce;
         top: 79px;
         width: 194px;
         height: 34px;
@@ -420,4 +420,21 @@ margin-right: 0;
     justify-content: space-between; 
     height: 45px;
     align-items:center;
+}
+
+@media screen and (max-width:768px){
+    .main-nav 
+    {
+        width: 100%;
+        
+    }
+
+    .slider .text{
+        font-size: 10rem;
+    }
+
+    .menu{
+        margin: 0px;
+        padding:0px;
+    }
 }
